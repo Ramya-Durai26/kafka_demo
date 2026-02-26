@@ -1,0 +1,26 @@
+# --- Java/Maven Specific ---
+/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# --- Eclipse Specific ---
+.settings/
+.project
+.classpath
+.metadata/
+bin/
+
+# --- IntelliJ/VS Code (Optional but good practice) ---
+.idea/
+*.iml
+.vscode/
+
+# --- OS/System Specific ---
+.DS_Store
+Thumbs.db
+
+# --- Docker/Kafka Logs ---
+*.log
+/data/
